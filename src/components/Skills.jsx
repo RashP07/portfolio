@@ -8,10 +8,14 @@ import nodejs from '../assets/nodejs.png'
 import php from '../assets/php.png'
 import firebase from '../assets/firebase.png'
 import python from '../assets/python.png'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Skills = () => {
-   
+    useEffect(() => {
+     AOS.init({ duration: 1000 })
+    })
+
     const techs = () => [
         {
             id: 1,
