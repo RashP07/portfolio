@@ -32,7 +32,7 @@ const Skills = () => {
         {
             id: 3,
             src: javascript,
-            title: 'JAVASCRIPT',
+            title: 'JavaScript',
             style: 'shadow-yellow-500'
         },
         {
@@ -46,6 +46,7 @@ const Skills = () => {
            src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-500'
+
         },
         {
             id: 6,
@@ -74,12 +75,12 @@ const Skills = () => {
     ]
 
     return (
-        <div name="Skills" className='pt-12 w-full h-auto bg-gradient-to-b from-gray-800 to-black text-white w-full h-full'>
+        <div name="Skills" className='pt-12 w-full h-auto text-white w-full h-full'>
    
             <div className='max-w-screen-lg max-h-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-400'>Skills</p>
-                    <p className='py-6'>These are the technologies I've worked with</p>
+                    <p className='py-6 text-gray-500'>These are the technologies I've worked with</p>
                 </div>
 
                 <div className='w-full h-full grid grid-cols-2 text-center sm:grid-cols-3 gap-8 px-12 sm:px-0'>

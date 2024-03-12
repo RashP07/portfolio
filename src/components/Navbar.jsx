@@ -35,7 +35,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-between items-center text-white w-full h-20 px-4 bg-gradient-to-b from-gray-800 to-black'>
+    <div className='flex justify-between items-center text-white w-full h-20 px-4 '>
       <div className='flex flex-row gap-1'>
         <h2 className='text-2xl text-gray-200 ml-4'>
           Rashmita
@@ -66,12 +66,12 @@ const Navbar = () => {
                 {showMenu ? <FaTimes size={30} /> : <FaBars size={30} />}
             </div>
           {showMenu && (
-        <div className="flex z-50 flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-200 md:hidden">
+        <div className="flex z-50 flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-black1 md:hidden">
             <Link smooth={true} duration={500} spy={true} exact='true' offset={-80} className='absolute m-6 top-0 right-0 cursor-pointer' onClick={() => setShowMenu(!showMenu)} to="Home">
                             <FaTimes size={30} />
                         </Link> 
           <div className="container flex flex-col items-center mx-auto py-2 space-y-2">
-          {navLinksdata.map(({ id,title, link }) => (
+          {navLinksdata.map(({ title, link }) => (
                             <a className='px-4 cursor-pointer capitalize py-6 text-4xl '>
                                 <Link onClick={() => setShowMenu(!showMenu)} to={link} smooth={true} duration={500} spy={true} exact='true' offset={-80}>{title}</Link>
                             </a>
