@@ -16,37 +16,37 @@ const Project = () => {
     {
     id:11,
     description:'A Chat-App made using ReactJS and Firebase ',
-    code:"https://github.com/RashP07",
+    code:"https://github.com/RashP07/chat-app",
     src:chat,
     },
     {
       id:12,
       description:'A Notion clone made using ReactJs, Tailwind CSS',
-      code:"https://github.com/RashP07",
+      code:"https://github.com/RashP07/notion-clone",
       src:notion,
       },
       {
         id:13,
         description:'A Job Portal website made using HTML, PHP and Mysql',
-        code:"https://github.com/RashP07",
+        code:"https://github.com/RashP07/Job-portal",
         src:jobportal,
         },
         {
           id:14,
           description:'A Github-explorer made using ReactJs and Tailwind CSS',
-          code:"https://github.com/RashP07",
+          code:"https://github.com/RashP07/github-explorer",
           src:github,
           },
           {
             id:15,
             description:'A text-to-speech converter made using HTML, CSS and Javascript',
-            code:"https://github.com/RashP07",
+            code:"https://github.com/RashP07/Text-To-Speech-Converter",
             src:texttospeech,
             },
             {
               id:16,
               description:'A portfolio website made using ReactJs and Taailwind CSS',
-              code:"https://github.com/RashP07",
+              code:"https://github.com/RashP07/portfolio",
               src:portfoliopic,
               }
    ]
@@ -59,7 +59,7 @@ const Project = () => {
                 </div>
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 px-12 gap-8 mb-20 sm:px-0 '>
               {projectdetails().map(({id,description,src,code}) => (
-           <div key={id} data-aos="fade-out" data-aos-duration="500" className='shadow-md shadow-gray-600 rounded-lg'>
+           <div key={id} data-aos="fade-in" data-aos-duration="500" className='shadow-md shadow-gray-600 rounded-lg'>
            <img src={src} alt='' className='rounded-md h-48 mx-auto'/>
            <p className='p-2 text-justify'>{description} </p>
            <div className='flex items-center justify-center'>

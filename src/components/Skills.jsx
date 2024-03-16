@@ -88,8 +88,16 @@ const Skills = () => {
                         techs().map(({ id, src, title, style }) => (
 
                             <div data-aos="zoom-in" data-aos-duration="500" key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                                <img src={src} alt="" className='w-20 mx-auto' />
-                                <p className='mt-4'>{title}</p>
+                      <img
+                src={src}
+                alt=""
+                className={`w-20 mx-auto ${title === 'Tailwind' ? 'pt-2'  : ''}`} 
+              />
+                             {/**<img src={src} alt="" className='w-20 mx-auto' /> */}   
+                            {/**   <p className='mt-4'>{title}</p>
+*/}  
+                                <p className={`mt-4 ${title === 'Tailwind' ? 'pt-5' : ''}`}>{title}</p> 
+          
                             </div>
                         ))
                     }
