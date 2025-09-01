@@ -5,6 +5,9 @@ import github from '../assets/gitubpic.png'
 import jobportal from '../assets/jobportalpic.png'
 import texttospeech from '../assets/texttospecch-pic.png'
 import portfoliopic from '../assets/portfoliopic.png'
+import budget from '../assets/budgetpic1.JPG'
+import yt from '../assets/ytsummarize.jpg'
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -13,38 +16,50 @@ const Project = () => {
     AOS.init({duration: 1000})
 })
   const projectdetails = () =>[
-    {
+     {
     id:11,
-    description:'A Chat-App made using ReactJS and Firebase ',
+    description:'A Budget-Tracker webiste made using NextJs',
+    code:"https://github.com/RashP07/budget-tracker",
+    src:budget,
+    },
+      {
+    id:12,
+    description:'A youtube-summarizer webiste',
+    code:"https://github.com/RashP07/youtube-summarizer",
+    src:yt,
+    },
+    {
+    id:13,
+    description:'A Chat-App made using ReactJS and Firebase',
     code:"https://github.com/RashP07/chat-app",
     src:chat,
     },
     {
-      id:12,
+      id:14,
       description:'A Notion clone made using ReactJs, Tailwind CSS',
       code:"https://github.com/RashP07/notion-clone",
       src:notion,
       },
       {
-        id:13,
+        id:15,
         description:'A Job Portal website made using HTML, PHP and Mysql',
         code:"https://github.com/RashP07/Job-portal",
         src:jobportal,
         },
         {
-          id:14,
+          id:16,
           description:'A Github-explorer made using ReactJs and Tailwind CSS',
           code:"https://github.com/RashP07/github-explorer",
           src:github,
           },
           {
-            id:15,
+            id:17,
             description:'A text-to-speech converter made using HTML, CSS and Javascript',
             code:"https://github.com/RashP07/Text-To-Speech-Converter",
             src:texttospeech,
             },
             {
-              id:16,
+              id:18,
               description:'A portfolio website made using ReactJs and Taailwind CSS',
               code:"https://github.com/RashP07/portfolio",
               src:portfoliopic,
