@@ -7,6 +7,9 @@ import texttospeech from '../assets/texttospecch-pic.png'
 import portfoliopic from '../assets/portfoliopic.png'
 import budget from '../assets/budgetpic1.JPG'
 import yt from '../assets/ytsummarize.jpg'
+import logpulse from '../assets/distributed-log-processing-system.JPG'
+import outfit from '../assets/outfit-studio.JPG'
+import ytlearning from '../assets/youtube-learning-companion.JPG'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -18,52 +21,70 @@ const Project = () => {
   const projectdetails = () =>[
      {
     id:11,
+    description:'A Distributed Log Processing System made using ReactJs, Express.js, MongoDB, Redis, Axios',
+    code:"https://github.com/RashP07/disrtibuted-log-processing-system",
+    src:logpulse,
+    },
+     {
+    id:12,
+    description:'A Youtube Learnning Comapanion website made using ReactJs, Express.js, MongoDB',
+    code:"https://github.com/RashP07/youtube-learning-companion",
+    src:ytlearning,
+    },
+     {
+    id:13,
+    description:'A Outfit Studio website made using ReactJs, Node Js, Express.js, MongoDB',
+    code:"https://github.com/RashP07/outfit-studio",
+    src:outfit,
+    },
+     {
+    id:14,
     description:'A Budget-Tracker webiste made using NextJs',
     code:"https://github.com/RashP07/budget-tracker",
     src:budget,
     },
       {
-    id:12,
+    id:15,
     description:'A youtube-summarizer webiste',
     code:"https://github.com/RashP07/youtube-summarizer",
     src:yt,
     },
+     {
+       id:16,
+       description:'A portfolio website made using ReactJs and Taailwind CSS',
+       code:"https://github.com/RashP07/portfolio",
+       src:portfoliopic,
+     },
     {
-    id:13,
+    id:17,
     description:'A Chat-App made using ReactJS and Firebase',
     code:"https://github.com/RashP07/chat-app",
     src:chat,
     },
     {
-      id:14,
+      id:18,
       description:'A Notion clone made using ReactJs, Tailwind CSS',
       code:"https://github.com/RashP07/notion-clone",
       src:notion,
       },
       {
-        id:15,
+        id:19,
         description:'A Job Portal website made using HTML, PHP and Mysql',
         code:"https://github.com/RashP07/Job-portal",
         src:jobportal,
         },
         {
-          id:16,
+          id:20,
           description:'A Github-explorer made using ReactJs and Tailwind CSS',
           code:"https://github.com/RashP07/github-explorer",
           src:github,
           },
           {
-            id:17,
+            id:21,
             description:'A text-to-speech converter made using HTML, CSS and Javascript',
             code:"https://github.com/RashP07/Text-To-Speech-Converter",
             src:texttospeech,
-            },
-            {
-              id:18,
-              description:'A portfolio website made using ReactJs and Taailwind CSS',
-              code:"https://github.com/RashP07/portfolio",
-              src:portfoliopic,
-              }
+            }
    ]
   return (
     <div name='Project' className='pt-12 max-h-screen-lg w-full h-auto text-white '>
