@@ -14,19 +14,24 @@ const navLinksdata = [
   },
   {
     id: 3,
+    title: "Experience",
+    link: "Experience",
+  },
+  {
+    id: 4,
     title: "Education",
     link: "Education",
   },
-   {
-    id: 4,
+  {
+    id: 5,
     title: "Skills",
     link: "Skills",
   },
   {
-  id: 5,
-  title: "Project",
-  link: "Project",
-},
+    id: 6,
+    title: "Project",
+    link: "Project",
+  },
 
 ];
 const Navbar = () => {
