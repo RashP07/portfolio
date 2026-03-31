@@ -44,8 +44,7 @@ const Navbar = () => {
       <div className='hidden md:flex'>
       {navLinksdata.map(({ id, title, link }) => (
             
-            <a href="#" key={id} className='px-4 cursor-pointer font-medium text-gray-200 hover:scale-105 duration-200'>
-            
+            <button key={id} className='px-4 cursor-pointer font-medium text-gray-200 hover:scale-105 duration-200 bg-transparent border-none'>
              <Link
                 activeClass="active"
                 to={link}
@@ -56,8 +55,7 @@ const Navbar = () => {
               >
                 {title}
               </Link>
-              
-            </a>
+            </button>
            ))}
       </div>
 
@@ -72,9 +70,9 @@ const Navbar = () => {
                         </Link> 
           <div className="container flex flex-col items-center mx-auto py-2 space-y-2">
           {navLinksdata.map(({ title, link }) => (
-                            <a href="#"className='px-4 cursor-pointer capitalize py-6 text-4xl '>
+                            <button className='px-4 cursor-pointer capitalize py-6 text-4xl bg-transparent border-none text-white'>
                                 <Link onClick={() => setShowMenu(!showMenu)} to={link} smooth={true} duration={500} spy={true} exact='true' offset={-80}>{title}</Link>
-                            </a>
+                            </button>
                         ))}
           </div>
         </div>

@@ -24,26 +24,26 @@ const Home = () => {
                                 <MdOutlineArrowRightAlt size={25} />
                             </span>
                         </Link>
-                        <a target='_blank' href="mailto:rashmitaparmanik9876@gmail.com"  className='group hover:scale-105 rounded w-auto h-10 p-3 flex items-center bg-[#505052] justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel='noreferrer' href="mailto:rashmitaparmanik9876@gmail.com"  className='group hover:scale-105 rounded w-auto h-10 p-3 flex items-center bg-[#505052] justify-center cursor-pointer mt-5 mb-28' >
 
                             <span className='pr-2'>
                                 <HiOutlineMail size={25} />
                             </span>
                             Hire Me
                         </a>
-                        <a target='_blank' href="https://www.linkedin.com/in/rashmita-parmanik-7b3346221/" className=' group hover:scale-105 rounded w-auto h-10 py-4 px-2 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/rashmita-parmanik-7b3346221/" className=' group hover:scale-105 rounded w-auto h-10 py-4 px-2 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsLinkedin size={25} ></BsLinkedin>
                             </span>
                         </a>
-                        <a target='_blank' href="https://github.com/RashP07"  className='group hover:scale-105 rounded w-auto h-10 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel='noreferrer' href="https://github.com/RashP07"  className='group hover:scale-105 rounded w-auto h-10 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsGithub size={25}></BsGithub>
                             </span>
                         </a>
-                        <a target='_blank' href="https://leetcode.com/rashmita_20/" className='group hover:scale-105 rounded w-auto h-10 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel='noreferrer' href="https://leetcode.com/rashmita_20/" className='group hover:scale-105 rounded w-auto h-10 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <SiLeetcode size={28}></SiLeetcode>
